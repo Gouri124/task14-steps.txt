@@ -1,10 +1,3 @@
-# ==========================================
-# File: task14-steps.txt
-# Goal: Create a Free-Tier Ubuntu Linux VM
-# OS: Ubuntu 24.04 LTS (or 22.04 LTS)
-# Access: Key-based SSH
-# ==========================================
-
 ## STEP 1: Generate an SSH Key Pair (Local Machine)
 # Open your local terminal and generate a secure ED25519 key pair.
 # Leave the passphrase blank for automatic login, or add one for extra security.
