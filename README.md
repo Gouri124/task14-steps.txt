@@ -48,7 +48,6 @@ ssh -i ~/.ssh/ubuntu_free_vm ubuntu@<PUBLIC_IP>
 # If prompted with "Are you sure you want to continue connecting (yes/no/[fingerprint])?", type:
 yes
 
-
 ## STEP 4: Initial Server Setup (Minimal Maintenance)
 # Once logged in, it is best practice to update the package lists and upgrade the system.
 
