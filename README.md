@@ -37,14 +37,13 @@ cat ~/.ssh/ubuntu_free_vm.pub
 ## STEP 3: Connect to the VM via SSH
 # Wait a minute for the VM to boot up. 
 # Find the "Public IPv4 address" in your AWS EC2 Instance summary.
-
+Accessible ip 13.60.241.80
 # Restrict permissions on your private key (required by SSH):
 chmod 400 ~/.ssh/ubuntu_free_vm
 
 # Connect to the server using the default 'ubuntu' user:
 # Replace <PUBLIC_IP> with your actual instance IP address.
-ssh -i ~/.ssh/ubuntu_free_vm ubuntu@<PUBLIC_IP>
-
+ ssh -i "key.pem" ubuntu@ec2-13-60-241-80.eu-north-1.compute.amazonaws.com
 # If prompted with "Are you sure you want to continue connecting (yes/no/[fingerprint])?", type:
 yes
 
